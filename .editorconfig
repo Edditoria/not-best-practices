@@ -16,9 +16,9 @@ insert_final_newline=true
 [{*.md,*json}]
 end_of_line=lf
 
-# Javascript, npm
+# Javascript, Typescript, npm
 
-[{*.js,*.mjs}]
+[{*.js,*.mjs,*jsx,*.ts,*.tsx}]
 end_of_line=lf
 
 [{bower.json,package.json,package-lock.json}]
