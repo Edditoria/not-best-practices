@@ -1,11 +1,11 @@
 module.exports = {
 	root: true,
 	env: {
-		browser: true,
+		// browser: true,
 		es2021: true,
 		node: true,
-		webextensions: true,
-		serviceworker: true,
+		// webextensions: true,
+		// serviceworker: true,
 	},
 	extends: ['eslint:recommended', 'prettier'],
 	parserOptions: {
