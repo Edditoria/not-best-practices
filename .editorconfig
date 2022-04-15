@@ -1,4 +1,4 @@
-# This file is to unify coding style for different editors and IDEs.
+# EditorConfig is a file format and collection of text editor plugins for maintaining consistent coding styles between different editors and IDEs.
 # Website: https://editorconfig.org
 #
 # NOTE: Remember to update .gitattributes for new changes.
@@ -13,12 +13,12 @@ insert_final_newline=true
 
 # Common
 
-[{*.md,*json}]
+[{*.md,*.json}]
 end_of_line=lf
 
 # Javascript, Typescript, npm
 
-[{*.js,*.mjs,*jsx,*.ts,*.tsx}]
+[{*.js,*.mjs,*.cjs,*.jsx,*.ts,*.tsx}]
 end_of_line=lf
 
 [{bower.json,package.json,package-lock.json}]
@@ -33,7 +33,7 @@ indent_size=2
 
 # Shell script
 
-[{*.sh,*.zsh,*fish,*.bash}]
+[{*.sh,*.zsh,*.fish,*.bash}]
 end_of_line=lf
 
 [{*.bat,*.cmd,*.ps1}]
