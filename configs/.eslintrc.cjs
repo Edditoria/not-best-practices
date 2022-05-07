@@ -7,15 +7,17 @@ module.exports = {
 		// webextensions: true,
 		// serviceworker: true,
 	},
+	// Require: `npm install --save-dev eslint-config-prettier`.
 	extends: ['eslint:recommended', 'prettier'],
 	parserOptions: {
 		ecmaVersion: 12,
 		sourceType: 'module',
 	},
 	rules: {
-		'linebreak-style': ['error', 'unix'],
+		'linebreak-style': ['error', 'unix'], // as default in ESLint.
 		indent: ['error', 'tab'],
 		quotes: ['error', 'single'],
-		semi: ['error', 'always'], // Default: 'always'.
+		'jsx-quotes': ['error', 'prefer-double'], // as default in ESLint.
+		semi: ['error', 'always'], // as default in ESLint.
 	},
 };

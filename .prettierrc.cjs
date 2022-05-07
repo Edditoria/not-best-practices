@@ -1,6 +1,8 @@
 module.exports = {
 	useTabs: true,
 	singleQuote: true,
-	trailingComma: 'es5',
+	jsxSingleQuote: false, // as default.
+	trailingComma: 'es5', // as default.
+	bracketSpacing: true, // as default.
 	printWidth: 100,
 };
