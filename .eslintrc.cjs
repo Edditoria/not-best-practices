@@ -18,6 +18,17 @@ module.exports = {
 		indent: ['error', 'tab'],
 		quotes: ['error', 'single'],
 		'jsx-quotes': ['error', 'prefer-double'], // as default in ESLint.
+		'max-len': [
+			'warn',
+			{
+				code: 80,
+				ignoreTrailingComments: true,
+				ignoreUrls: true,
+				ignoreStrings: true,
+				ignoreTemplateLiterals: true,
+				ignoreRegExpLiterals: true,
+			},
+		],
 		semi: ['error', 'always'], // as default in ESLint.
 	},
 };

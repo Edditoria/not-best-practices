@@ -4,5 +4,5 @@ module.exports = {
 	jsxSingleQuote: false, // as default.
 	trailingComma: 'es5', // as default.
 	bracketSpacing: true, // as default.
-	printWidth: 100,
+	printWidth: 999,
 };
