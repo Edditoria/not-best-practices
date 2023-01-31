@@ -15,7 +15,7 @@ module.exports = {
 	},
 	rules: {
 		'linebreak-style': ['error', 'unix'], // as default in ESLint.
-		indent: ['error', 'tab'],
+		indent: ['error', 'tab', { SwitchCase: 1 }],
 		quotes: ['error', 'single'],
 		'jsx-quotes': ['error', 'prefer-double'], // as default in ESLint.
 		'max-len': [
